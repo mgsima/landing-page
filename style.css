@@ -1,0 +1,117 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;  /* Asegura que el cuerpo tenga al menos la altura del viewport */
+    font-family: 'Monserrat', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;           /* Convertir el cuerpo en contenedor flex */
+    align-items: center;     /* Centrar verticalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    margin: 0;               /* Eliminar margen predeterminado */
+}
+
+#subscription_form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="email"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.indicates-required {
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.asterisk {
+    color: red;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #007BFF;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.helper_text {
+    font-size: 11px;
+    color: #666;
+}
+
+
+
+
+
+h1 {
+    font-size: 3rem;
+    color: black
+}
+
+
+.buffer {
+    height: 10rem;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 200px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #F05F44;
+    border-color: #F05F44;
+    
+}
+
+.btn-primary:hover{
+    background-color: #ee4b08;
+    border-width: 4px;
+    border-color: #ee4b08;
+
+}
+
+.btn-xl {
+    padding: 1 rem 2rem;
+}
+
+hr {
+    margin: 20px auto;
+    color: #b42911;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+}
+
